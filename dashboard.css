@@ -1,0 +1,104 @@
+/* Gaya untuk menu titik tiga */
+.three-dots-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.three-dots-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+    display: none;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu ul li {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.dropdown-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Tampilkan dropdown menu */
+.dropdown-menu.visible {
+    display: block;
+}
+
+/* Gaya untuk menu hamburger */
+.menu-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.hamburger-menu {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+    display: none;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Tampilkan sidebar */
+.sidebar.visible {
+    display: block;
+}

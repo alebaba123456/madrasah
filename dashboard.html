@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <!-- Menu Hamburger (Pojok Kiri) -->
+    <div class="menu-container">
+        <button id="menuButton" class="hamburger-menu">☰</button>
+        <nav id="sidebar" class="sidebar hidden">
+            <ul>
+                <li><a href="#profile">Profil Siswa</a></li>
+                <li><a href="#subjects">Mata Pelajaran</a></li>
+                <li><a href="#schedule">Jadwal</a></li>
+                <li><a href="#grades">Nilai</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Menu Titik Tiga (Pojok Kanan) -->
+    <div class="three-dots-container">
+        <button id="threeDotsButton" class="three-dots-button">⋮</button>
+        <div id="dropdownMenu" class="dropdown-menu hidden">
+            <ul>
+                <li><a href="#settings">Setting</a></li>
+                <li><a href="#" id="logoutButton">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dashboard-container">
+        <header>
+            <h1><center>Dashboard</center></h1>
+        </header>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
